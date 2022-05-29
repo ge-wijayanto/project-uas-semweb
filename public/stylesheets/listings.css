@@ -1,6 +1,7 @@
 body {
   margin: 0;
   font-family: "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: #06215c;
 }
 
 img { max-width: 100%; }
@@ -8,6 +9,7 @@ h2 { font-size: 1.5rem; }
 
 .header {
   display: flex;
+  padding: 20px;
   justify-content: space-between;
   align-items: center;
   color: #fff;
@@ -16,16 +18,16 @@ h2 { font-size: 1.5rem; }
   margin-bottom: 10px;
 }
 
-.header .search {
-  /* text */
-  /* padding: 5px;
-  border: none; */
+a { color: #0f0f0f; }
 
-  /* submit button */
+.header .back {
   float: right;
   padding: 5px 10px;
   border: none;
   cursor: pointer;
+  background-color: #fff;
+  border-radius: 10px;
+  font-size: 1.2rem;
 }
 
 .car-wrapper { 
@@ -43,7 +45,7 @@ h2 { font-size: 1.5rem; }
   color: rgba(17, 17, 17);
   background-color: #fff;
   padding: 20px;
-  border: 2px solid #06215c;
+  border: 3px solid #fff;
   border-radius: 10px;
 }
 
@@ -58,4 +60,5 @@ h2 { font-size: 1.5rem; }
 
 .content-font {
   color: rgba(17, 17, 17);
+  font-size: 1.1rem;
 }

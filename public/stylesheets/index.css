@@ -1,9 +1,61 @@
 body {
-    background-image: url(../images/car-background-2.png);
-    padding: 50px;
-    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif; 
+    margin: 0;
+    font-family: "Lucida Grande", Helvetica, Arial, sans-serif;
+    background-color: #06215c;
 }
   
-a {
-    color: #00B7FF;
+img { 
+    max-width: 100%; 
+    margin-bottom: 5px;
+}
+
+h2 { font-size: 1.5rem; }
+  
+a { color: #0f0f0f; }
+
+.header {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    background-color: #06215c;
+    margin-top: -1rem;
+    margin-bottom: -1rem;
+}
+
+.wrapper { 
+    padding: .1rem; 
+    margin: 1rem;
+}
+  
+.listings {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+    grid-gap: 2rem;
+}
+  
+.listings .listings-card {
+    color: rgba(17, 17, 17);
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color: #fff;
+    padding: 20px;
+    border: 3px solid #fff;
+    border-radius: 10px;
+}
+  
+.listings .listings-card:hover {
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1), 0 5px 5px rgba(0, 0, 0, 0.25);
+}
+  
+.title-font {
+    font-size: 1.5rem;
+    margin-top: 0px;
+    margin-bottom: -.5rem;
+}
+  
+.content-font {
+    color: rgba(17, 17, 17);
+    font-size: 1.1rem;
 }
