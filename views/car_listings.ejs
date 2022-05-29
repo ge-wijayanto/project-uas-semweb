@@ -1,17 +1,33 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Data</title>
-  <link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+  <title>Car Listings</title>
+  <link rel="stylesheet" type="text/css" href="stylesheets/listings.css">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-  <h1>Anjay</h1>
-  <p>Page for <%= title %></p>
-  
-  <% cars.forEach(function(car) { %>
-    <p><%- car.model %></p>
-  <% }); %> 
+  <h1 class="header">
+    <div class="logo">Car Listings Semantic Web</div>
+    <div class="search">Search</div>
+  </h1>
+
+  <div class="car-wrapper">
+    <div class="car-listings">
+      <% cars.forEach(function(car) { %>
+        <div class="car-listings-card">
+          <h2 class="title-font"><%= car.model %></h2>
+          <h3 class="content-font"><%= car.brand  %> </h3>
+          <p class="content-font">Engine Type: <%= car.engine %></p>
+          <p class="content-font">Year       : <%= car.year %></p>
+          <p class="content-font">Drivetrain : <%= car.drivetrain %></p>
+          <p class="content-font">Type       : <%= car.type %></p>
+          <p class="content-font">Weight     : <%= car.weight %></p>
+          <p class="content-font">Region     : <%= car.region %></p>
+          <h3 class="content-font"><%= car.price %></h3>
+        </div>
+      <% }); %> 
+    </div>
+  </div>
 </body>
 </html>

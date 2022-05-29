@@ -11,11 +11,20 @@ router.get('/', async(req, res) => {
             prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
             prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> 
             
-            SELECT ?model ?year ?engine WHERE { 
+            SELECT ?model ?year ?engine ?drivetrain ?type ?weight ?price ?brand ?region WHERE { 
                 ?id a :Vehicle . 
                 ?id :model ?model . 
                 ?id :year ?year . 
                 ?id :engine ?engine . 
+                ?id :drivetrain ?drivetrain .
+                ?id :type ?type .
+                ?id :weight ?weight .
+                ?id :price ?price .
+
+                ?id :builtBy ?idmanu .
+                ?idmanu a :Manufacturer .
+                ?idmanu :brand ?brand .
+                ?idmanu :region ?region .
             }`;
         
         var sparqlEndpoint = 'http://localhost:3030/cardata/sparql';
