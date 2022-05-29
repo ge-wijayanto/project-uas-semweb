@@ -10,4 +10,4 @@ Data yang digunakan merupakan data-data otomotif (mobil), berupa :
 ### Tujuan :
 Mencari informasi mengenai kendaraan berdasarkan model, tipe mobil, tahun keluaran, harga, asal, dan nama manufaktur yang membuat kendaraan tersebut.
 
-### Turtle : [turtle](cardata.ttl)
+### Turtle : [Link Turtle](cardata.ttl)
