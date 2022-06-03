@@ -7,6 +7,13 @@ body {
 img { max-width: 100%; }
 h2 { font-size: 1.5rem; }
 
+a {
+  color: #0f0f0f; 
+  transition: 0.4s;
+}
+
+a:hover { color: white }
+
 .header {
   display: flex;
   padding: 20px;
@@ -18,8 +25,6 @@ h2 { font-size: 1.5rem; }
   margin-bottom: 10px;
 }
 
-a { color: #0f0f0f; }
-
 .header .back {
   float: right;
   padding: 5px 10px;
@@ -28,6 +33,49 @@ a { color: #0f0f0f; }
   background-color: #fff;
   border-radius: 10px;
   font-size: 1.2rem;
+  transition: 0.4s;
+}
+
+.header .back:hover {
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1), 0 5px 5px rgba(0, 0, 0, 0.25);
+  border: 2px solid #fff;
+  background-color: #06215c;
+  color: white;
+}
+
+.search-box {
+  display: flex;
+  margin-left: 1rem;
+  width: 100%;
+}
+
+.search-box-field {
+  font-family: "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-size: large;
+  border-radius: 10px;
+  padding: 4px;
+  width: 320px;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1), 0 5px 5px rgba(0, 0, 0, 0.25);
+  border: 1px solid #fff;
+}
+
+.search-box-submit {
+  font-family: "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-size: large;
+  border-radius: 10px;
+  margin-left: .2rem;
+  padding: 4px;
+  width: 100%;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1), 0 5px 5px rgba(0, 0, 0, 0.25);
+  border: 1px solid #fff;
+  transition: 0.4s;
+}
+
+.search-box-submit:hover {
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1), 0 5px 5px rgba(0, 0, 0, 0.25);
+  border: 2px solid #fff;
+  background-color: #06215c;
+  color: white;
 }
 
 .car-wrapper { 
