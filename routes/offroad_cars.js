@@ -29,7 +29,7 @@ router.get('/', async(req, res) => {
                 FILTER regex(?type, "Off-road|SUV")
             }`;
         
-        var sparqlEndpoint = 'http://localhost:3030/cardata/sparql';
+        var sparqlEndpoint = 'http://localhost:3030/cardatabase/sparql';
 
         d3.sparql(sparqlEndpoint, myQuery).then((results) => {
             console.log(results); 

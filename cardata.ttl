@@ -155,3 +155,111 @@
          :type "2-Door Roadster" ;
          :weight "3,320 lbs" ;
          :year 2008 .
+
+#   http://www.car-database.org/lenovo/2022/4/project-semweb#idvehi7
+:idvehi7 rdf:type owl:NamedIndividual ,
+                  :Vehicle ;
+         :builtBy :idmanu1 ;
+         :drivetrain "AWD" ;
+         :engine "RB26DETT (6-cyl. in line, DOHC)" ;
+         :model "Skyline R-32 (BNR32)" ;
+         :price "42,011 USD" ;
+         :type "2-Door Roadster" ;
+         :weight "3,152 lbs" ;
+         :year 1989 .
+
+#   http://www.car-database.org/lenovo/2022/4/project-semweb#idvehi8
+:idvehi8 rdf:type owl:NamedIndividual ,
+                  :Vehicle ;
+         :builtBy :idmanu3 ;
+         :drivetrain "RWD" ;
+         :engine "6.5 L L539 V12" ;
+         :model "Veneno" ;
+         :price "4,000,000 USD" ;
+         :type "Sports" ;
+         :weight "3,285 lbs" ;
+         :year 2014 .
+
+#   http://www.car-database.org/lenovo/2022/4/project-semweb#idvehi9
+:idvehi9 rdf:type owl:NamedIndividual ,
+                  :Vehicle ;
+         :builtBy :idmanu3 ;
+         :drivetrain "AWD" ;
+         :engine "4.0 L twin-turbo V8" ;
+         :model "Urus" ;
+         :price "229,495 USD" ;
+         :type "Off-road/SUV" ;
+         :weight "4,844 lbs" ;
+         :year 2020 .
+
+#   http://www.car-database.org/lenovo/2022/4/project-semweb#idvehi10
+:idvehi10 rdf:type owl:NamedIndividual ,
+                  :Vehicle ;
+         :builtBy :idmanu2 ;
+         :drivetrain "RWD" ;
+         :engine "6.2 L Hemi V-8" ;
+         :model "Challenger SRT Demon" ;
+         :price "86,390 USD" ;
+         :type "2-Door Roadster" ;
+         :weight "4,280 lbs" ;
+         :year 2022 .
+
+#   http://www.car-database.org/lenovo/2022/4/project-semweb#idvehi11
+:idvehi11 rdf:type owl:NamedIndividual ,
+                  :Vehicle ;
+         :builtBy :idmanu4 ;
+         :drivetrain "AWD" ;
+         :engine "4.6 L Porsche MR6 V8" ;
+         :model "918 Spyder" ;
+         :price "845,000 USD" ;
+         :type "Sports" ;
+         :weight "3,791 lbs" ;
+         :year 2015 .
+
+#   http://www.car-database.org/lenovo/2022/4/project-semweb#idvehi12
+:idvehi12 rdf:type owl:NamedIndividual ,
+                  :Vehicle ;
+         :builtBy :idmanu4 ;
+         :drivetrain "RWD" ;
+         :engine "3.0 L Twin Turbo Premium Unleaded H-6" ;
+         :model "911 Carrera GTS" ;
+         :price "101,200 USD" ;
+         :type "2-Door Coupe" ;
+         :weight "4,280 lbs" ;
+         :year 2022 .
+
+#   http://www.car-database.org/lenovo/2022/4/project-semweb#idvehi13
+:idvehi13 rdf:type owl:NamedIndividual ,
+                  :Vehicle ;
+         :builtBy :idmanu5 ;
+         :drivetrain "RWD" ;
+         :engine "3.0 L Twin-Scroll Turbocharged V6" ;
+         :model "Supra" ;
+         :price "49,990 USD" ;
+         :type "2-Door Roadster" ;
+         :weight "3,397 lbs" ;
+         :year 2020 .
+
+#   http://www.car-database.org/lenovo/2022/4/project-semweb#idvehi14
+:idvehi14 rdf:type owl:NamedIndividual ,
+                  :Vehicle ;
+         :builtBy :idmanu5 ;
+         :drivetrain "RWD" ;
+         :engine "2.4 L 4-cyl. Boxer Engine" ;
+         :model "GR86" ;
+         :price "27,700 USD" ;
+         :type "2-Door Roadster" ;
+         :weight "2,811 lbs" ;
+         :year 2022 .
+
+#   http://www.car-database.org/lenovo/2022/4/project-semweb#idvehi15
+:idvehi15 rdf:type owl:NamedIndividual ,
+                  :Vehicle ;
+         :builtBy :idmanu3 ;
+         :drivetrain "AWD" ;
+         :engine "6.0L 12-cyl. 5M" ;
+         :model "Diablo" ;
+         :price "57,740 USD" ;
+         :type "Sports" ;
+         :weight "3,474 lbs" ;
+         :year 2001 .

@@ -28,7 +28,7 @@ router.get('/', async(req, res) => {
             } 
             HAVING (?year <= 2010)`;
         
-        var sparqlEndpoint = 'http://localhost:3030/cardata/sparql';
+        var sparqlEndpoint = 'http://localhost:3030/cardatabase/sparql';
 
         d3.sparql(sparqlEndpoint, myQuery).then((results) => {
             console.log(results); 

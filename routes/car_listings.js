@@ -27,7 +27,7 @@ router.get('/', async(req, res) => {
                 ?idmanu :region ?region .
             }`;
         
-        var sparqlEndpoint = 'http://localhost:3030/cardata/sparql';
+        var sparqlEndpoint = 'http://localhost:3030/cardatabase/sparql';
 
         d3.sparql(sparqlEndpoint, myQuery).then((results) => {
             console.log(results); 
@@ -74,7 +74,7 @@ router.post('/', async(req, res) => {
                 FILTER regex(?model, "${search}")
             }`;
         
-        var sparqlEndpoint = 'http://localhost:3030/cardata/sparql';
+        var sparqlEndpoint = 'http://localhost:3030/cardatabase/sparql';
 
         d3.sparql(sparqlEndpoint, myQuery).then((results) => {
             console.log(results); 
